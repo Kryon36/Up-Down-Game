@@ -100,15 +100,15 @@
       if (level === 'easy') {
         minNumber = 1;
         maxNumber = 10;
-        maxAttempts = 3;
+        maxAttempts = 4;
       } else if (level === 'normal') {
         minNumber = 1;
         maxNumber = 100;
-        maxAttempts = 10;
+        maxAttempts = 7;
       } else {
         minNumber = 1;
         maxNumber = 1000;
-        maxAttempts = 30;
+        maxAttempts = 10;
       }
 
       answer = Math.floor(Math.random() * (maxNumber - minNumber + 1)) + minNumber;
